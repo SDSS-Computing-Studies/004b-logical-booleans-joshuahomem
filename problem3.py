@@ -26,9 +26,9 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
-a=input("an integer ")
-b=input("an integer ")
-c=input("an integer ")
+a=input("an integer ").strip()
+b=input("an integer ").strip()
+c=input("an integer ").strip()
 a=int(a)
 b=int(b)
 c=int(c)
