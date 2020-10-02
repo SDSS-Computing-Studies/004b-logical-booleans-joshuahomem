@@ -19,16 +19,17 @@ Enter a number: 8
 8 is only a perfect cube.
 """
 a=input("enter in your number").strip()
-a=float(a)
+
+a=int(a)
 a = round(a,3)
 b=a**(1.0/3.)
 b = round(b,3)
 c=a**(1.0/2.)
 
-b=float(b)
+b=int(b)
 number1=int(b)
 
-c=float(c)
+c=int(c)
 number2=int(c)
 
 
