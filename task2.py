@@ -18,7 +18,7 @@ Example:
 Enter a number: 8
 8 is only a perfect cube.
 """
-a=input("enter in your number")
+a=input("enter in your number").strip()
 a=float(a)
 a = round(a,3)
 b=a**(1.0/3.)
@@ -36,6 +36,6 @@ number2=int(c)
 if c==number2 and b==number1:
     print( str(a)+ " is both a perfect square and a perfect cube")
 elif c==number2:
-    print( str(a)+ " is a perfect square")
+    print( str(a)+ " is only a perfect square")
 elif b==number1:
-    print(str(a)+ " is a perfect cube")
+    print(str(a)+ " is only a perfect cube")
