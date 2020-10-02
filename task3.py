@@ -15,9 +15,9 @@ example:
 Enter a number: -3
 -3 is not a positive integer
 """
-a=input("enter in any number")
+a=input("enter in any number").strip()
 a=float(a)
 if a>0:
-    print(str(a)+" is a posotive integer")
+    print(str(a)+" is a positive integer")
 elif a<0:
-    print(str(a)+" is not a posotive integer")
+    print(str(a)+" is not a positive integer")
