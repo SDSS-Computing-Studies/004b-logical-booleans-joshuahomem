@@ -19,7 +19,7 @@ Enter a number: 48
 """
 
 #! python3
-a=input("a number")
+a=input("a number").strip()
 a=float(a)
 b=a%6
 c=a%8
