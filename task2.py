@@ -37,6 +37,6 @@ number2=int(c)
 if c==number2 and b==number1:
     print( str(a)+ " is both a perfect square and a perfect cube")
 elif c==number2:
-    print( str(a)+ " is only a perfect square")
+    print( str(a)+ " is only a perfect square.")
 elif b==number1:
-    print(str(a)+ " is  only a perfect cube")
+    print(str(a)+ " is  only a perfect cube.")
